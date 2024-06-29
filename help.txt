@@ -1,0 +1,11 @@
+1. Convert SCSS to CSS
+sass css/style.scss style.css
+
+2. Sass Install
+npm install -g sass
+
+3. Auto Compile the SCSS file to CSS
+sass --watch css/style.scss:style.css
+
+4. Stop the Auto Compile
+control+c

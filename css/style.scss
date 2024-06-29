@@ -1,0 +1,220 @@
+/* Header part CSS */
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+
+  max-width: 1600px;
+  margin: auto;
+  position: relative;
+
+  .header-container{
+    position: relative;
+
+    .top-header-wrapper{
+      display: flex;
+      grid-gap: 1rem;
+      background: #5B65D2;
+      padding: 0.4rem 2rem;
+      box-shadow: rgba(100, 100, 111, 0.08) 0px 7px 29px 0px;
+      align-items: center;
+      color: white;
+
+      .top-header-menu:nth-child(1){
+        margin-left: 18rem;
+      }
+      .top-header-menu:nth-child(2){
+        margin-left: 3rem;
+      }
+      .top-header-menu{
+
+        ul.top-menu{
+          display: flex;
+          align-items: center;
+          justify-content: left;
+          list-style: none;
+          li {
+            margin-right: 1rem;
+            a{
+              font-size: 16px;
+              line-height: 26px;
+              color: white;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+
+    .header-wrapper{
+
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 1rem;
+      background: white;
+      padding: 0.5rem 2rem;
+      box-shadow: rgba(100, 100, 111, 0.08) 0px 7px 29px 0px;
+      align-items: center;
+
+      .header-menu:nth-child(1){
+        margin-left: 15.5rem;
+      }
+
+      .header-logo{
+        a>img.logo{
+          height: 80px;
+          width: auto;
+        }
+      }
+      .header-menu{
+        ul.menu{
+          display: flex;
+          align-items: center;
+          justify-content: left;
+          list-style: none;
+          li {
+            margin-right: 1rem;
+            a{
+              font-size: 16px;
+              line-height: 26px;
+              color: black;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+.header-logo {
+  img.logo{
+    position: absolute;
+    top: 0;
+    left: 5rem;
+    background: white;
+    padding: 1rem 1rem;
+  }
+}
+
+/*Body Part CSS*/
+.container{
+
+  .main-container{
+    grid-gap: 1rem;
+    background: #BFD6DC;
+    padding: 0.4rem 2rem;
+    box-shadow: rgba(100, 100, 111, 0.08) 0px 7px 29px 0px;
+    align-items: baseline;
+    color: white;
+    min-height: 600px;
+
+    .title-sub-title{
+      padding: 2rem 0;
+      margin-left: 4rem;
+      h2{
+
+      }
+      h4{
+        color: #5B65D2;
+      }
+    }
+
+    .main-wrapper{
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      justify-content: space-around;
+
+      .main-menu{
+        position: relative;
+        width: 200px;
+        padding: 1.5rem 0;
+       .sub-menu{
+         position: absolute;
+         left: 8rem;
+         top: 2rem;
+         position: absolute;
+         left: 9.5rem;
+         top: 1rem;
+         width: 150px;
+         background: white;
+         padding: 1rem;
+       }
+        ul.menu{
+          background: white;
+          padding: 1.5rem 1rem;
+          box-shadow: rgba(100, 100, 111, 0.08) 0px 7px 29px 0px;
+        }
+        ul{
+          list-style: none;
+          margin-left: 0;
+          li{
+            a{
+              font-size: 16px;
+              line-height: 26px;
+              color: black;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+      .main-cart{
+        img{
+          height: auto;
+          width: 800px;
+        }
+      }
+    }
+
+  }
+}
+
+
+
+/*Footer Part CSS*/
+.container{
+
+  .footer-container{
+
+    .footer-wrapper{
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      grid-gap: 1rem;
+      background: #535A5F;
+      padding: 0.5rem 2rem;
+      box-shadow: rgba(100, 100, 111, 0.08) 0px 7px 29px 0px;
+      align-items: center;
+      height: 350px;
+
+      .footer-option{
+        h3{
+          color: white;
+        }
+        ul{
+          li{
+            color: white;
+            a{
+              font-size: 16px;
+              line-height: 26px;
+              color: white;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.d-none {
+  display: none;
+}
+.sub-menu {
+  display: none;
+}
